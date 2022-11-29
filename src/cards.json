@@ -1,0 +1,291 @@
+[
+    {
+        "name": "Anivia",
+        "image": "img/anivia-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 6,
+        "region": "Freljord",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Garen",
+        "image": "img/garen-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Demacia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Lux",
+        "image": "img/lux-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Demacia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Darius",
+        "image": "img/darius-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 6,
+        "region": "Noxus",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Teemo",
+        "image": "img/teemo-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 1,
+        "region": "Piltover and Zaun, Bandle City",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Jinx",
+        "image": "img/jinx-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 4,
+        "region": "Piltover and Zaun",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Lucian",
+        "image": "img/lucian-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 2,
+        "region": "Demacia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Fiora",
+        "image": "img/fiora-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 4,
+        "region": "Demacia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Ashe",
+        "image": "img/ashe-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 4,
+        "region": "Freljord",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Braum",
+        "image": "img/braum-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 4,
+        "region": "Freljord",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Lissandra",
+        "image": "img/lissandra-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 3,
+        "region": "Freljord",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Kalista",
+        "image": "img/kalista-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 3,
+        "region": "Shadow Isles",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Miss Fortune",
+        "image": "img/miss-fortune-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 3,
+        "region": "Bilgewater",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Zed",
+        "image": "img/zed-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 3,
+        "region": "Ionia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Soraka",
+        "image": "img/soraka-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 3,
+        "region": "Targon",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Karma",
+        "image": "img/karma-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Ionia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Aurelion Sol",
+        "image": "img/aurelion-sol-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 10,
+        "region": "Targon",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Quinn",
+        "image": "img/quinn-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Demacia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Fizz",
+        "image": "img/fizz-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 1,
+        "region": "Bilgewater, Bandle City",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Veigar",
+        "image": "img/veigar-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Bandle City, Shadow Isles",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Nautilus",
+        "image": "img/nautilus-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 7,
+        "region": "Bilgewater",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Kai'sa",
+        "image": "img/kai'sa-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Shurima",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Veigo",
+        "image": "img/viego-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 6,
+        "region": "Shadow Isles",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Taliyah",
+        "image": "img/taliyah-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 5,
+        "region": "Shurima",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Ahri",
+        "image": "img/ahri-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 2,
+        "region": "Ionia",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Tryndamere",
+        "image": "img/tryndamere-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 8,
+        "region": "Freljord",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Zoe",
+        "image": "img/zoe-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 1,
+        "region": "Targon",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Annie",
+        "image": "img/annie-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 1,
+        "region": "Noxus",
+        "type": "unit",
+        "isInDeck": false
+    },
+
+    {
+        "name": "Akshan",
+        "image": "img/akshan-level-1-img.webp",
+        "rarity": "champion",
+        "mana": 2,
+        "region": "Shurima",
+        "type": "unit",
+        "isInDeck": false
+    }
+]

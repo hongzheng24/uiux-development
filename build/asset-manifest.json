@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/csci-1300-development/static/css/main.ec93e9d0.css",
+    "main.js": "/csci-1300-development/static/js/main.19b1ba75.js",
+    "index.html": "/csci-1300-development/index.html",
+    "main.ec93e9d0.css.map": "/csci-1300-development/static/css/main.ec93e9d0.css.map",
+    "main.19b1ba75.js.map": "/csci-1300-development/static/js/main.19b1ba75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec93e9d0.css",
+    "static/js/main.19b1ba75.js"
+  ]
+}
