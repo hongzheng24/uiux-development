@@ -19,11 +19,13 @@ App instantiates states, state setter helper functions, and passes this data to 
 This website has 2 main components: the Menu component and the Body component.
 The Menu component displays the menu bar on the website and its images and buttons. It also handles the main functionalities such as filtering, sorting, and changing the states accordingly.
 The Body component displays the body of the website that houses the cards. It handles the functionality of displaying the filtered and sorted cards.
+The Menu component has a sub-component: the Aggregator component. It displays the total number of mana in the user's deck and updates with the manaCount state.
 The Body component has a sub-component: the Card component. Each card is represented by a Card component. This component displays the card, its region, its mana cost, and a button that adds the card to the user's deck.
 
 ### How Data is Passed Down Through Components
-App passes all state setter helpern functions and the region state variable to the Menu component.
+App passes all state setter helper functions and the region and deckMana state variables to the Menu component.
 App also passes all state variables and the selectDeckMana setter helper function to the Body component.
+The Menu component passes the deckMana state variable to the Aggregator component.
 The Body component passes the findButtonLabel function, the updateToDeck function, and items in the sorted, filtered list to the Card components. 
 
 ### How the User Triggers State Changes
