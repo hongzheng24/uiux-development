@@ -19,6 +19,7 @@ function App() {
   const[manaSort, setManaSort] = useState("None")
   const[isInDeck, setIsInDeck] = useState(false)
   const[deckMana, setDeckMana] = useState(0)
+  const[search, setSearch] = useState("")
 
   const selectRegion = (value) => {
     setRegion(value)
@@ -48,6 +49,10 @@ function App() {
     setDeckMana(value)
   }
 
+  const selectSearch = (value) => {
+    setSearch(value)
+  }
+
   return (
     <div className="App">
 
@@ -59,8 +64,9 @@ function App() {
         selectManaSort={selectManaSort}
         selectIsInDeck={selectIsInDeck}
         selectDeckMana={selectDeckMana}
-        deckMana={deckMana}
+        selectSearch={selectSearch}
 
+        deckMana={deckMana}
         region={region}
         />
 
@@ -73,6 +79,7 @@ function App() {
         isInDeck={isInDeck}
         cards={cards}
         deckMana={deckMana}
+        search={search}
         selectDeckMana={selectDeckMana}
         />
 

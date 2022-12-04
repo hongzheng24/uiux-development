@@ -1,3 +1,5 @@
+import Aggregator from "./Aggregator";
+
 /**
  * This is the Menu component. It displays the menu bar on the website and its images and buttons.
  * It handles changing the filtering and sorting states.
@@ -23,6 +25,14 @@ export default function Menu(props) {
         props.selectIsInDeck(false)
     }
 
+    const displaySearch = () => {
+      const searchBar = document.getElementById("menu-search-bar")
+
+      if (!searchBar) {return;}
+
+      props.selectSearch(searchBar.value.toLowerCase())
+    }
+
     const isRadioButtonChecked = (value) => {
         if (value === props.region) {
             return "checked"
@@ -37,8 +47,22 @@ export default function Menu(props) {
         </div>
 
         <div className="menu-sub-div">
+
+          <div className="menu-search-container">
+            <input id="menu-search-bar" type="text" placeholder="Search.." onChange={() => displaySearch()}/>
+          </div>
+
           <div className="menu-filter-container">
-            <button onClick={reset}>Reset Filters</button>
+            <h4>COLLECTION</h4>
+            <input type="checkbox" id="deck-checkbox" onClick={() => {
+              if (document.getElementById("deck-checkbox").checked === false) {
+                props.selectIsInDeck(false)
+              } else {
+                props.selectIsInDeck(true)
+              }
+            }}/><label>Your Deck</label>
+
+            <Aggregator deckMana = {props.deckMana}/>
           </div>
 
           <div className="menu-filter-container">
@@ -73,15 +97,8 @@ export default function Menu(props) {
             </div>
           </div>
 
-          <div className="menu-filter-container" style={{paddingTop: 20}}>
-            <input type="checkbox" id="deck-checkbox" onClick={() => {
-              if (document.getElementById("deck-checkbox").checked === false) {
-                props.selectIsInDeck(false)
-              } else {
-                props.selectIsInDeck(true)
-              }
-            }}/><label style={{fontWeight:"bold"}}>YOUR DECK</label>
-            <a>&nbsp;&nbsp;&nbsp;Total Mana: {props.deckMana}</a>
+          <div className="menu-reset-container">
+            <button onClick={reset}>Reset Filters</button>
           </div>
         </div>
       </div>

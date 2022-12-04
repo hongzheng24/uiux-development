@@ -193,7 +193,7 @@
         "name": "Veigar",
         "image": "img/veigar-level-1-img.webp",
         "rarity": "champion",
-        "mana": 5,
+        "mana": 4,
         "region": "Bandle City, Shadow Isles",
         "type": "unit",
         "isInDeck": false

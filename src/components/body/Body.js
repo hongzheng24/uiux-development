@@ -58,9 +58,19 @@ export default function Body(props) {
           return false
         }
     }
+
+    const matchesSearch = item => {
+      if (props.search === "") {
+        return true
+      } else if (item.name.toLowerCase().includes(props.search) || item.region.toLowerCase().includes(props.search)) {
+        return true
+      } else {
+        return false
+      }
+    }
     
     const matchesFilters = item => {
-        if (matchesRegion(item) && matchesType(item) && matchesMana(item) && matchesRarity(item) && matchesIsInDeck(item)) {
+        if (matchesRegion(item) && matchesType(item) && matchesMana(item) && matchesRarity(item) && matchesIsInDeck(item) && matchesSearch(item)) {
           return true
         } else {
           return false
@@ -118,7 +128,10 @@ export default function Body(props) {
 
         {sortedCards.map((item) => {
             return(
-                <Card item={item} findButtonLabel={findButtonLabel} updateToDeck={updateToDeck}/>
+                <Card item={item}
+                  findButtonLabel={findButtonLabel}
+                  updateToDeck={updateToDeck}
+                  />
             )
         })}
 

@@ -24,10 +24,16 @@ button {
   color: var(--text-color);
 }
 
+input[type=text] {
+  padding: 4px;
+  font-size: 16px;
+  width: 70%;
+}
+
 .menu {
   display: block;
-  width: 20%;
-  height: 100%;
+  width: 17%;
+  min-height: 100%;
   padding-top: 2%;
   padding-left: 1%;
   padding-right: 1%;
@@ -53,10 +59,19 @@ button {
   font-weight: normal;
 }
 
+.menu-reset-container {
+  padding-top: 1.33em;
+}
+
+.menu-search-container {
+  padding-bottom: 2%;
+}
+
 .body {
-  padding-left: 22%;
+  margin-left: 17%;
   padding-top: 2%;
-  width: 80%;
+  padding-left: 2.5%;
+  width: 83%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -65,7 +80,7 @@ button {
 .card-div {
   display: block;
   padding-bottom: 4%;
-  width: 18%;
+  width: 13rem;
 }
 
 .card-div div {
@@ -80,3 +95,16 @@ button {
 label {
   padding-right: 5px;
 }
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 30%;
+  }
+
+  .body {
+    min-width: 70%;
+    margin-left: 30%;
+    padding-left: 0;
+  }
+}
+
